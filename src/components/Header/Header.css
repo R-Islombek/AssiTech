@@ -1,0 +1,172 @@
+.header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.header__logo img {
+    width: 130px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: all 0.3s ease;
+}
+
+.header__link {
+    position: relative;
+    text-decoration: none;
+    color: #222;
+    transition: color 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.header__item{
+    list-style: none;
+}
+
+.header__link::before,
+.header__link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 0%;
+    background: linear-gradient(90deg, #007bff, #00c3ff);
+    transition: all 0.4s ease;
+    border-radius: 2px;
+}
+
+.header__link::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__link:hover::before {
+    width: 100%;
+}
+
+.header__link:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.lang-select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.lang-select:hover {
+    border-color: #007bff;
+    background: #f0f8ff;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    transition: transform 0.3s ease;
+}
+
+.burger span {
+    width: 25px;
+    height: 3px;
+    background: #222;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.burger.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+/* Hover effekti burgerga */
+.burger:hover span {
+    background: #007bff;
+}
+
+/* Responsive qism */
+@media (max-width: 900px) {
+    .burger {
+        display: flex;
+    }
+
+    .header__list {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        flex-direction: column;
+        background: #fff;
+        width: 220px;
+        text-align: left;
+        padding: 25px;
+        gap: 18px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        transition: right 0.4s ease;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .header__list.open {
+        right: 0;
+    }
+
+    .header__item {
+        width: 100%;
+    }
+
+    .header__link {
+        display: block;
+        padding: 8px 0;
+        font-size: 17px;
+    }
+
+    .header__link::before {
+        bottom: 0;
+    }
+
+    .lang-select {
+        width: 100%;
+    }
+}

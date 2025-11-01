@@ -1,0 +1,24 @@
+{
+    "header": {
+        "about": "About Us",
+        "product": "Products",
+        "services": "Services",
+        "contact": "Contact",
+        "installation": "Installation"
+    },
+    "hero": {
+        "slide1": {
+            "title": "We stand out with quality services",
+            "subtitle": "Together we bring your dream project to life"
+        },
+        "slide2": {
+            "title": "Innovative solutions",
+            "subtitle": "We achieve success using modern technologies"
+        },
+        "slide3": {
+            "title": "Trusted partnership",
+            "subtitle": "We value long-term relationships with our clients"
+        },
+        "contactBtn": "Contact Us"
+    }
+}

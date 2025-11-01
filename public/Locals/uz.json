@@ -1,0 +1,24 @@
+{
+    "header": {
+        "about": "Biz haqimizda",
+        "product": "Mahsulotlar",
+        "services": "Xizmatlar",
+        "contact": "Aloqa",
+        "installation": "O‘rnatish"
+    },
+    "hero": {
+        "slide1": {
+            "title": "Sifatli xizmatlar bilan farq qilamiz",
+            "subtitle": "Biz bilan orzularingizdagi loyiha ro‘yobga chiqadi"
+        },
+        "slide2": {
+            "title": "Innovatsion yechimlar",
+            "subtitle": "Zamonaviy texnologiyalar yordamida natijaga erishamiz"
+        },
+        "slide3": {
+            "title": "Ishonchli hamkorlik",
+            "subtitle": "Biz mijozlarimiz bilan uzoq muddatli aloqalarga e’tibor beramiz"
+        },
+        "contactBtn": "Bog‘lanish"
+    }
+}
