@@ -10,7 +10,6 @@ const Hero = () => {
   const { t } = useTranslation();
   const [current, setCurrent] = useState(0);
 
-  // Sliderni ma'lumotlar (tilga qarab)
   const slides = [
     {
       image: back,
@@ -29,7 +28,6 @@ const Hero = () => {
     },
   ];
 
-  // Avtomatik o‘tish effekti
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);

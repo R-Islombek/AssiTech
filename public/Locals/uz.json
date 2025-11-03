@@ -20,5 +20,23 @@
             "subtitle": "Biz mijozlarimiz bilan uzoq muddatli aloqalarga e’tibor beramiz"
         },
         "contactBtn": "Bog‘lanish"
+    },
+    "main": {
+        "title": "ASSI Tech",
+        "span": "Bizning ASSITECHBIO kompaniyamiz ultratovush qurilmalarini sotish va xizmat ko‘rsatish, shuningdek, ultratovush kurslarini tashkil etishga ixtisoslashgan.",
+        "span1": "Biz turli ishlab chiqaruvchilardan va narx toifalaridan keng turdagi uskunalarni taklif qilamiz: mobil xizmatlar uchun ixcham ko‘chma ultratovush apparatlaridan tortib, tibbiyot muassasalari uchun yuqori aniqlikdagi statsionar qurilmalargacha.",
+        "text1": "Biz ishonchli yetkazib beruvchilar bilan hamkorlik qilamiz va mahsulot sifatiga kafolat beramiz, shuningdek, ultratovush qurilmalari uchun kafolatli va kafolatdan keyingi xizmatni ta’minlaymiz.",
+        "text2": "Mutaxassislarimiz tibbiy uskunalar sohasida katta tajribaga ega va kerakli uskuna tanlash hamda o‘rnatishda har doim yordam berishga tayyor.",
+        "text3": "Bizning maqsadimiz — mijozlarga eng yaxshi ultratovush apparatlarini taqdim etish, ularning ishini optimallashtirish va bemorlarni tashxislash hamda davolash samaradorligini oshirishdir.",
+        "text4": "Biz mijozlarimiz bilan uzoq muddatli hamkorlikni maqsad qilamiz va ularga faqat eng yaxshi uskuna va xizmatlarni taklif etamiz."
+    },
+    "services": {
+        "title": "Bizda mavjud bo'lgan kurslar",
+        "title1": "Biz raqamlarda",
+        "text1": "Kattalar neyrosonografiyasi, bolalar exokardiyografiyasi, akusherlik va ginekologiya, fetal exokardiyografiya",
+        "text2": "Brendlar",
+        "text3": "Dilerlar",
+        "text4": "Xodimlar",
+        "text5": "Mijozlar"
     }
 }

@@ -20,5 +20,23 @@
             "subtitle": "We value long-term relationships with our clients"
         },
         "contactBtn": "Contact Us"
+    },
+    "main": {
+        "title": "ASSI Tech",
+        "span": "Our company ASSITECHBIO specializes in: sales and service of ultrasound devices and organization of ultrasound courses.",
+        "span1": "We offer a wide range of equipment from various manufacturers and price categories: from compact portable ultrasound machines for mobile services to high-precision stationary installations for medical institutions.",
+        "text1": "We work with trusted suppliers and guarantee product quality, as well as provide warranty and post-warranty service for ultrasonic devices.",
+        "text2": "Our specialists have extensive experience in the field of medical equipment and are always ready to help with the selection and installation of the necessary equipment",
+        "text3": "Our goal is to provide customers with the best ultrasound machines, help them optimize their work and improve the efficiency of diagnosing and treating patients.",
+        "text4": "We strive for long-term relationships with our customers, offering them only the best equipment and service."
+    },
+    "services": {
+        "title": "Courses we offer",
+        "title1": "We are in numbers",
+        "text1": "Adult neurosonography, pediatric echocardiography, obstetrics and gynecology, fetal echocardiography",
+        "text2": "Brands",
+        "text3": "Dealers",
+        "text4": "Employees",
+        "text5": "Clients"
     }
 }
