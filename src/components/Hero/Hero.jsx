@@ -36,7 +36,7 @@ const Hero = () => {
   }, [slides.length]);
 
   return (
-    <div className="hero">
+    <section className="hero">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
